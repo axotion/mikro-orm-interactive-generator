@@ -1,0 +1,31 @@
+{
+  "name": "mikro-orm-interactive-generator",
+  "version": "0.0.1",
+  "description": "MikroORM + knexJS interactive migration generator",
+  "main": "dist/bin/migration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch & nodemon dist",
+    "build" : "npx tsc"
+  },
+  "keywords": [
+    "mikroorm",
+    "generator",
+    "migration-generator",
+    "knexjs"
+  ],
+  "author": "kamilfronczak@pm.me",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^8.1.3",
+    "@types/mustache": "^4.1.2",
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0",
+    "inquirer-autocomplete-prompt": "^1.4.0",
+    "mustache": "^4.2.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3",
+    "@types/inquirer-autocomplete-prompt": "^1.3.3",
+    "@types/node": "^16.10.3"
+  }
+}

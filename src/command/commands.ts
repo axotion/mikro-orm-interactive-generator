@@ -1,3 +1,4 @@
 export const RegisteredCommands = {
-    create: 'create'
+    createFieldMigration: 'Cf',
+    createRelationMigration: 'Cr'
 }

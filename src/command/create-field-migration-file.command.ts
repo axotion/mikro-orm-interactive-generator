@@ -1,7 +1,7 @@
 import {CommandInterface} from "./command.interface";
-import {FieldFactor} from "../builder/migration/factor/field.factor";
+import {FieldFactor} from "../builder/field-migration/factor/field.factor";
 
-export class CreateMigrationFileCommand implements CommandInterface {
+export class CreateFieldMigrationFileCommand implements CommandInterface {
 
     public tableName: string;
 

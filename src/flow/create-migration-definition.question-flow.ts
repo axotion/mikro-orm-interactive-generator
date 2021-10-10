@@ -38,7 +38,7 @@ export class CreateMigrationDefinitionQuestionFlow {
 
 
             if(fieldType['field_type'].includes(types.autoincrementKey)) {
-                autoincrement = autoincrement = await inquirer.prompt([{
+                autoincrement = await inquirer.prompt([{
                     message: 'Is autoincrement?',
                     type: 'list',
                     name: 'is_autoincrement',

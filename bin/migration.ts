@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Command, program } from "commander"
 import * as inquirer from 'inquirer'
 import {CommandBus} from "../src/bus/command-bus";

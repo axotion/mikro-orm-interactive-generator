@@ -1,8 +1,8 @@
-import {FieldFactor} from "../builder/migration/factor/field.factor";
+import {FieldFactor} from "../builder/field-migration/factor/field.factor";
 import * as inquirer from "inquirer";
 import {DBEngineTypes} from "../type/db-engine.type";
 
-export class CreateMigrationDefinitionQuestionFlow {
+export class CreateFieldMigrationDefinitionQuestionFlow {
 
     async execute(types: DBEngineTypes) : Promise<{tableName: string, fields: FieldFactor[]}> {
 
